@@ -76,3 +76,9 @@ class FizzBuzz {
         return i;
     }
 }
+
+//Task 2.1: publishing changes
+//git add src/lab1/FizzBuzz.java
+//git commit -m "refactored to extract the helper function for second demo of lab 1"
+//git push -> go to the main at the top left section
+
