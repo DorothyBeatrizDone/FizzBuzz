@@ -42,7 +42,8 @@ class FizzBuzz {
 class FizzBuzz {
 
     public static void main(String[] args) {
-        int i = 1;
+        int i = Integer.parseInt(args[0]); //remove this for first demonstration, this is part of Task 3.2
+        //int i = 1;
 
         while (i < 100) {
             i = doFizzBuzz(i);
@@ -80,5 +81,7 @@ class FizzBuzz {
 //Task 2.1: publishing changes
 //git add src/lab1/FizzBuzz.java
 //git commit -m "refactored to extract the helper function for second demo of lab 1"
-//git push -> go to the main at the top left section
+//git push -> go to the main at the top left section and click either the "push" or "commit"
+
+
 
