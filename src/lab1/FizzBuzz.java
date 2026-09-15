@@ -37,6 +37,7 @@ class FizzBuzz {
         }
     }
 }
+//new line of code.
  */
 //Task 2
 class FizzBuzz {
